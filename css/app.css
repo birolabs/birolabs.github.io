@@ -1,0 +1,148 @@
+h1 {
+    line-height: 1.5;
+    font-size: 26px;
+    margin-top: 60px;
+}
+.logo {
+    height:80px;
+}
+.hero {
+    margin: 20px 0 120px 0;
+}
+html,body{
+    height:100%;
+    color:#666;
+}
+
+.fill{
+    width:100%;
+    height:80%;
+    min-height:80%;
+    padding:10px;
+    overflow:hidden;
+    position: relative;
+}
+
+.outer-just-table {
+    display: table;
+    position: absolute;
+    height: 100%;    
+}
+.outer {
+    display: table;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.middle {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    /*width: /*whatever width you want*/;*/
+}
+
+.worknami {
+    background-color: #fafafa;
+    position: relative;
+}
+.istack {
+    background-color: #fafafa;
+}
+.laptop {
+    position: relative;
+}
+.showcase {
+    left: 0;
+    position: absolute;
+}
+.showcase-right {
+    left: 55%;
+}
+.thermondo .showcase {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+.istack .showcase {
+    position: absolute;
+    top: 25%;
+}
+.rhodecode .showcase {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+.laptop-content {
+    position: absolute;
+    width: 530px;
+    left: 182px;
+    top: 48px;
+}
+.laptop-bezel {
+    left: 97px;
+    top: 25px;
+    position: absolute;
+    width: 700px;  
+}
+.worknami .showcase {
+    box-shadow: 0 -0px 57px rgba(0,0,0,.08);
+    width: 800px;
+}
+.worknami h2 {
+    font-family: museo-slab;
+    font-size: 50px;
+    font-family: museo-slab, Georgia, "Times New Roman", Times, serif;
+    color: #3BAFDA;
+    letter-spacing: -2px;
+    font-weight: 500;
+}
+.istack h2 {
+    font-family: museo-slab;
+    font-size: 50px;
+    font-family: museo-slab, Georgia, "Times New Roman", Times, serif;
+    letter-spacing: -2px;
+    font-weight: 500;
+}
+.thermondo-logo {
+    width: 250px;
+    margin-bottom: 20px;
+}
+.rhodecode-logo {
+    width: 250px;
+    margin-bottom: 20px;
+}
+.worknami-logo * {
+    margin-bottom: 20px
+}
+.worknami-logo * {
+    display: inline-block;
+}
+.worknami-logo img {
+    width: 50px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.btn-default {
+    color: #777;
+    background-color: #fff !important;
+    border-color: #cccccc;
+    text-transform: uppercase;
+
+}
+.contact {
+    margin-top: 25px;
+    margin-right: 10px;
+}
+section {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.text {
+    padding-bottom: 50px;
+}
