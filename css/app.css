@@ -18,7 +18,6 @@ html,body{
     width:100%;
     height:80%;
     min-height:80%;
-    padding:10px;
     overflow:hidden;
     position: relative;
 }
@@ -43,11 +42,15 @@ html,body{
 .inner {
     margin-left: auto;
     margin-right: auto; 
-    /*width: /*whatever width you want*/;*/
 }
 
-.worknami {
+.grey {
     background-color: #fafafa;
+}
+.gorgias {
+    position: relative;
+}
+.worknami {
     position: relative;
 }
 .istack {
@@ -63,19 +66,25 @@ html,body{
 .showcase-right {
     left: 55%;
 }
+.gorgias .showcase {
+    position: absolute;
+    top: 22%;
+    left: 40%;
+}
 .thermondo .showcase {
     position: absolute;
-    top: 30%;
-    left: 45%;
+    top: 22%;
+    left: 40%;
 }
 .istack .showcase {
     position: absolute;
-    top: 25%;
+    top: 20%;
+    left: 50%;
 }
 .rhodecode .showcase {
     position: absolute;
-    top: 30%;
-    left: 45%;
+    top: 22%;
+    left: 40%;
 }
 .laptop-content {
     position: absolute;
@@ -85,13 +94,23 @@ html,body{
 }
 .laptop-bezel {
     left: 97px;
-    top: 25px;
+    top: 26px;
     position: absolute;
     width: 700px;  
 }
+.gorgias .laptop-content {
+    clip: rect(0px,999px,350px,0px);
+}
+
 .worknami .showcase {
     box-shadow: 0 -0px 57px rgba(0,0,0,.08);
     width: 800px;
+    margin-top: 20px;
+}
+.gorgias .showcase {
+    box-shadow: 0 -0px 57px rgba(0,0,0,.08);
+    height: 90%;
+    margin-top: 20px;
 }
 .worknami h2 {
     font-family: museo-slab;
@@ -107,6 +126,9 @@ html,body{
     font-family: museo-slab, Georgia, "Times New Roman", Times, serif;
     letter-spacing: -2px;
     font-weight: 500;
+}
+.gorgias-logo-img {
+    width: 250px;
 }
 .thermondo-logo {
     width: 250px;
@@ -145,4 +167,31 @@ section {
 }
 .text {
     padding-bottom: 50px;
+}
+@media screen and (max-width: 768px) {
+    .showcase {
+        display: none !important;
+    }
+}
+@media screen and (max-height: 1300px) {
+    .fill{
+        width:100%;
+        height:100%;
+        min-height:100%;
+    }
+    .map{
+        width:100%;
+        height:100%;
+        min-height:100%;
+    }
+}
+.map {
+    background-image: url(../img/map.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    width:100%;
+    height:60%;
+    min-height:60%;
+    overflow:hidden;
+    position: relative;    
 }
